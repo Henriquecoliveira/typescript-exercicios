@@ -1,3 +1,4 @@
+/*
 //exercício de estrutura condicional de notas
 
 //variáveis
@@ -11,3 +12,39 @@ if (nota => 7 && faltas <= 10) { //se a nota for maior ou igual a 7 e faltas men
 } else { 
     console.log(`você foi reprovado na matéria de ${materia} com nota ${nota} e ${faltas} faltas.`);
 }
+*/
+
+/*
+function mostrarNome (nome:string): void {
+    console.log(`Olá ${nome}!`);
+}
+
+mostrarNome("João");
+*/
+
+/*
+function verificarAprovacao(nota: number, faltas: number): string {
+    if (nota >= 7 && faltas <= 10) {
+        return "Aprovado";
+    } else {
+        return "Reprovado";
+    }
+}
+
+let situacao = verificarAprovacao(window.prompt("Digite o valor aí"),window.prompt("Digite outro"));
+console.log(situacao);
+*/
+
+/*
+function calcularJurosSimples(capital: number, taxa: number, tempo: number): number {
+    let valorFinal = capital + (capital + taxa + tempo);
+    return valorFinal;
+}
+
+let investimento = 1000;
+let taxaJuros = 0.05;
+let meses = 12;
+let resultado = calcularJurosSimples(investimento, taxaJuros, meses);
+
+console.log(`Aplicação de R$${investimento} a ${taxaJuros} de taxa de juros lhe rendeu R$${resultado.toFixed(2)}`);
+*/
