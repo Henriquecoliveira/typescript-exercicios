@@ -1,0 +1,13 @@
+//exercício de estrutura condicional de notas
+
+//variáveis
+let materia: string = "Matemática";
+let nota: number = 8;
+let faltas: number = 12;
+
+//estrutura condicional
+if (nota => 7 && faltas <= 10) { //se a nota for maior ou igual a 7 e faltas menor ou igual  10 == console.log
+    console.log(`parabéns você passou na matéria de ${materia} com nota ${nota} e ${faltas} faltas.`);
+} else { 
+    console.log(`você foi reprovado na matéria de ${materia} com nota ${nota} e ${faltas} faltas.`);
+}
