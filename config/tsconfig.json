@@ -2,13 +2,13 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    "rootDir": "\Desktop\exercícios\typescript-exercicios\typescript-code",
-    "outDir": "\Desktop\exercícios\typescript-exercicios\javascript-compilation",
+    "rootDir": "C:\Users\Henri\programation\GitHub\typescript-exercicios\exercicios_em_typescript",
+    "outDir": "C:\Users\Henri\programation\GitHub\typescript-exercicios\exercicios_transpilados",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
-    "target": "esnext",
+    "target": "es2024",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
