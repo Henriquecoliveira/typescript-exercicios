@@ -1,0 +1,116 @@
+import * as readline from "readline-sync"; //inporta a biblioteca para requisitar dados do usuário
+
+//Requisitando as notas da matéria de matemática
+
+function nota_matematica () {
+    const atv1_matematica: number  = readline.questionFloat("Digite a nota da primeira atividade de matemática: ");
+    const atv2_matematica: number  = readline.questionFloat("Digite a nota da segunda atividade de matemática: "); 
+    const atv3_matematica: number  = readline.questionFloat("Digite a nota da terceira atividade de matemática: "); 
+    const prova1_matematica: number = readline.questionFloat("Digite a nota da primeira prova de matemática: ");
+    const prova2_matematica: number = readline.questionFloat("Digite a nota da segunda prova de matemática: ");
+    const trabalho1_matematica: number = readline.questionFloat("Digite a nota do primeiro trabalho de matemática: ");
+    const trabalho2_matematica: number = readline.questionFloat("Digite a nota do segundo trabalho de matemática: ");
+    const trabalho3_matematica: number = readline.questionFloat("Digite a nota do terceiro trabalho de matemática: ");
+
+//Média em matemática
+const media_matematica: number = ((
+    atv1_matematica +
+    atv2_matematica +
+    atv3_matematica +
+    prova1_matematica +
+    prova2_matematica +
+    trabalho1_matematica +
+    trabalho2_matematica +
+    trabalho3_matematica
+    ) / 8);
+}
+
+import * as readline from "readline-sync";
+
+function nota_portugues() {
+    const atv1_portugues: number = readline.questionFloat("Digite a nota da primeira atividade de Português: ");
+    const atv2_portugues: number = readline.questionFloat("Digite a nota da segunda atividade de Português: ");
+    const atv3_portugues: number = readline.questionFloat("Digite a nota da terceira atividade de Português: ");
+    const prova1_portugues: number = readline.questionFloat("Digite a nota da primeira prova de Português: ");
+    const prova2_portugues: number = readline.questionFloat("Digite a nota da segunda prova de Português: ");
+    const trabalho1_portugues: number = readline.questionFloat("Digite a nota do primeiro trabalho de Português: ");
+    const trabalho2_portugues: number = readline.questionFloat("Digite a nota do segundo trabalho de Português: ");
+    const trabalho3_portugues: number = readline.questionFloat("Digite a nota do terceiro trabalho de Português: ");
+
+    const media_portugues: number = (
+        atv1_portugues +
+        atv2_portugues +
+        atv3_portugues +
+        prova1_portugues +
+        prova2_portugues +
+        trabalho1_portugues +
+        trabalho2_portugues +
+        trabalho3_portugues
+    ) / 8;
+}
+
+function nota_geografia() {
+    const atv1_geografia: number = readline.questionFloat("Digite a nota da primeira atividade de Geografia: ");
+    const atv2_geografia: number = readline.questionFloat("Digite a nota da segunda atividade de Geografia: ");
+    const atv3_geografia: number = readline.questionFloat("Digite a nota da terceira atividade de Geografia: ");
+    const prova1_geografia: number = readline.questionFloat("Digite a nota da primeira prova de Geografia: ");
+    const prova2_geografia: number = readline.questionFloat("Digite a nota da segunda prova de Geografia: ");
+    const trabalho1_geografia: number = readline.questionFloat("Digite a nota do primeiro trabalho de Geografia: ");
+    const trabalho2_geografia: number = readline.questionFloat("Digite a nota do segundo trabalho de Geografia: ");
+    const trabalho3_geografia: number = readline.questionFloat("Digite a nota do terceiro trabalho de Geografia: ");
+
+    const media_geografia: number = (
+        atv1_geografia +
+        atv2_geografia +
+        atv3_geografia +
+        prova1_geografia +
+        prova2_geografia +
+        trabalho1_geografia +
+        trabalho2_geografia +
+        trabalho3_geografia
+    ) / 8;
+}
+
+function nota_historia() {
+    const atv1_historia: number = readline.questionFloat("Digite a nota da primeira atividade de História: ");
+    const atv2_historia: number = readline.questionFloat("Digite a nota da segunda atividade de História: ");
+    const atv3_historia: number = readline.questionFloat("Digite a nota da terceira atividade de História: ");
+    const prova1_historia: number = readline.questionFloat("Digite a nota da primeira prova de História: ");
+    const prova2_historia: number = readline.questionFloat("Digite a nota da segunda prova de História: ");
+    const trabalho1_historia: number = readline.questionFloat("Digite a nota do primeiro trabalho de História: ");
+    const trabalho2_historia: number = readline.questionFloat("Digite a nota do segundo trabalho de História: ");
+    const trabalho3_historia: number = readline.questionFloat("Digite a nota do terceiro trabalho de História: ");
+
+    const media_historia: number = (
+        atv1_historia +
+        atv2_historia +
+        atv3_historia +
+        prova1_historia +
+        prova2_historia +
+        trabalho1_historia +
+        trabalho2_historia +
+        trabalho3_historia
+    ) / 8;
+}
+
+function nota_quimica() {
+    const atv1_quimica: number = readline.questionFloat("Digite a nota da primeira atividade de Química: ");
+    const atv2_quimica: number = readline.questionFloat("Digite a nota da segunda atividade de Química: ");
+    const atv3_quimica: number = readline.questionFloat("Digite a nota da terceira atividade de Química: ");
+    const prova1_quimica: number = readline.questionFloat("Digite a nota da primeira prova de Química: ");
+    const prova2_quimica: number = readline.questionFloat("Digite a nota da segunda prova de Química: ");
+    const trabalho1_quimica: number = readline.questionFloat("Digite a nota do primeiro trabalho de Química: ");
+    const trabalho2_quimica: number = readline.questionFloat("Digite a nota do segundo trabalho de Química: ");
+    const trabalho3_quimica: number = readline.questionFloat("Digite a nota do terceiro trabalho de Química: ");
+
+    const media_quimica: number = (
+        atv1_quimica +
+        atv2_quimica +
+        atv3_quimica +
+        prova1_quimica +
+        prova2_quimica +
+        trabalho1_quimica +
+        trabalho2_quimica +
+        trabalho3_quimica
+    ) / 8;
+}
